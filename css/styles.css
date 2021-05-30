@@ -119,8 +119,26 @@ body {
 .section-hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--background-black);
+  /* background-color: var(--background-black); */
   text-align: center;
+}
+.background-image {
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/backgroundhero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .hero-title {
   margin-top: 0;
