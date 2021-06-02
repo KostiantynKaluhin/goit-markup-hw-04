@@ -405,6 +405,9 @@ body {
   display: block;
   text-decoration: none;
 }
+.card > img {
+  display: block;
+}
 .card:hover,
 .card:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -475,7 +478,6 @@ body {
   text-transform: uppercase;
   color: var(--white-color);
   font-weight: 700;
-  line-height: 1.17%;
 }
 .foter-icon {
   display: flex;
